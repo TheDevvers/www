@@ -2,9 +2,7 @@
   <img src="https://i.imghippo.com/files/qIqc3187dJg.png" height="350" alt="Mediscan"/>
 </p>
 
-<p align="center">
-  <em> Healthcare at your fingertips!👋</em>
-</p>
+<h2 style="text-align: center;"><i>🩺Healthcare at your fingertips!👋</i></h2>
 
 [MediScan](https://mediscan.care) gives you easy access to wait times for hospitals nearby, allows you to self diagnose so you can have the best medical experience, and connect with doctors remotely through telemedicine🚀!
 
