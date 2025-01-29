@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://i.imgur.com/5LJxBt4.pngg" height="350" alt="AgentGPT Logo"/>
+  <img src="https://i.imghippo.com/files/qIqc3187dJg.png" height="350" alt="AgentGPT Logo"/>
 </p>
 <p align="center">
   <em>🩺 Healthcare at your fingertips! 🖐   </em>
 </p>
 
-[MediScan](https://mediscan.tech) gives you easy access to wait times for hospitals nearby and allows you to self diagnose so you can have the best medical experience 🚀!
+[MediScan](https://mediscan.care) gives you easy access to wait times for hospitals nearby and allows you to self diagnose so you can have the best medical experience 🚀!
 The app is split into two main categories: Giving hospital wait times and predicting injuries or diseases through a convolutional neural network (CNN) model.
 
-Source Code for AI Model and API: https://github.com/mediscan-tech/model-api
+Source Code for AI Model and API: https://github.com/TheDevvers/model-api
 
 ---
 
@@ -18,9 +18,9 @@ Source Code for AI Model and API: https://github.com/mediscan-tech/model-api
 
 ## ✨ Demo
 
-For the best demo experience, visit [our site](https://mediscan.tech) :)
+For the best demo experience, visit [our site](https://mediscan.care) :)
 
-[Demo Video](https://www.youtube.com/watch?v=ANMwVpiqOHk)
+[Demo Video](https://www.youtube.com/watch?v=gA-RCKCkT0I)
 
 ## 🚀 Website Tech Stack
 
