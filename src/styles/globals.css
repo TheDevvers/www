@@ -1,0 +1,89 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components'; */
+
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+/* @import 'additional-styles/range-slider.css';
+@import 'additional-styles/toggle-switch.css'; */
+@import "additional-styles/theme.css";
+
+@import "tailwindcss/utilities";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default styles for mobile (everything in columns) */
+.map-display-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container {
+  order: 1;
+  /* Make the map container appear first */
+  margin-bottom: 20px;
+}
+
+.data-container {
+  order: 2;
+  /* Make the data container appear second */
+}
+
+/* Media query for desktop (everything in rows) */
+@media (min-width: 768px) {
+  .map-display-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .map-container {
+    order: 2;
+    /* Make the map container appear in the middle */
+    flex: 1;
+    /* Set the map container to take up 1/3 of the available space */
+    margin-right: 50px;
+    margin-top: 105px;
+  }
+
+  .data-container {
+    order: 1;
+    /* Make the data container appear on the left */
+    flex: 2;
+    /* Set the data container to take up 2/3 of the available space */
+    margin-right: 40px;
+    /*seperator in between */
+    margin-left: 50px;
+    margin-top: 85px;
+  }
+}
+
+/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-xl font-medium text-text-light;
+  }
+
+  p,
+  ul,
+  ol,
+  li {
+    @apply text-[16px] font-medium text-text;
+  }
+
+  input,
+  select,
+  textarea {
+    @apply w-full rounded-lg border border-bg-extralight bg-bg-light px-2 py-1.5 outline-none placeholder:text-text/50;
+  }
+
+  label {
+    @apply pl-1 text-sm;
+  }
+}
